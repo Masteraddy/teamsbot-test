@@ -1,0 +1,11 @@
+APITest/bin
+APITest/cache
+APITest/obj
+APITest/Properties
+APITest/APITest.csproj.user
+out
+cache
+transcriptss
+.vs
+ngrok.yml
+appsettings.json
