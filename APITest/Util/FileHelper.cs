@@ -17,8 +17,10 @@ namespace APITest.Util
                     Directory.CreateDirectory(directoryPath);
                 }
                 // Create the file
-                Console.WriteLine("Creating file: " + directoryPath + filePath);
-                File.Create(directoryPath + filePath);
+                using (File.Create(directoryPath + filePath))
+                {
+                    Console.WriteLine("Creating file: " + directoryPath + filePath);
+                }
             }
             catch (Exception e)
             {
