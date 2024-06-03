@@ -44,7 +44,7 @@ namespace APITest.Bot
 
         public void Initialize()
         {
-            var name = "POPBot";
+            var name = AppConstants.BOTNAME;
             // this.logger = new GraphLogger();
             // Initialize bot services
             var builder = new CommunicationsClientBuilder(

@@ -27,5 +27,6 @@ namespace APITest.Constants
         public const string AuthDomain = "https://api.aps.skype.com/v1/.well-known/OpenIdConfiguration";
 
         public const string PlaceCallEndpointUrl = "https://graph.microsoft.com/v1.0";
+        public const string BOTNAME = "MYPOP";
     }
 }
