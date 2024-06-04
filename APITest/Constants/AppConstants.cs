@@ -28,5 +28,6 @@ namespace APITest.Constants
 
         public const string PlaceCallEndpointUrl = "https://graph.microsoft.com/v1.0";
         public const string BOTNAME = "MYPOP";
+        public const string MANAGERLINK = "https://ai.mypop.ai/api/transcript";
     }
 }

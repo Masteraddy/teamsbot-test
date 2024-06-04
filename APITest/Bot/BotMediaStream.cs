@@ -1,4 +1,5 @@
 using APITest;
+using APITest.Constants;
 using APITest.Media;
 using APITest.Util;
 using Microsoft.Graph.Communications.Calls;
@@ -148,7 +149,7 @@ namespace APITest.Bot
                 // var content = new FormUrlEncodedContent(data);
                 var content = new FormUrlEncodedContent(data);
                 // await client.PostAsync("https://eva.trivoh.com/api/transcript", content);
-                await client.PostAsync("https://ai.mypop.ai/api/transcript", content);
+                await client.PostAsync(AppConstants.MANAGERLINK, content);
                 // await client.PostAsync("https://game-explicitly-redfish.ngrok-free.app/api/transcript", content);
             }
 
